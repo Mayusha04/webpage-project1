@@ -1,0 +1,152 @@
+body{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    padding:0;
+    margin:0;
+    background-color: white ;
+}
+.container{
+    width:70%;
+    margin: auto;
+    overflow: hidden;
+
+}
+.dark{
+    padding:15px;
+    background: rgb(88, 243, 222);
+    color: rgb(60, 57, 235);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+header{
+    background: rgb(91, 240, 208);
+    color: rgb(155, 46, 245);
+    padding-top: 25px;
+    min-height: 75px;
+    border-bottom: lightskyblue 3px solid;
+}
+header a{
+    color: #354233; 
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+header ul{
+    margin:0;
+    padding:0;
+}
+header li{
+    float: left;
+    display: inline;
+    padding:0 10px 0 10px
+}
+header #branding{
+    float:left;
+}
+header #branding h1{
+    margin:0;
+}
+header nav{
+    float:right;
+    margin-top: 10px;
+}
+header .highlight,header .current a{
+    color:rgb(230, 32, 42);
+    font-weight: 10px;
+}
+header a:hover{
+    color:magenta;
+    font-weight: bold;
+}
+
+/*content*/
+#content{
+    height: 70%;
+   background-image:url("./image/showcase.jpg") ;
+   background-repeat: no-repeat;
+   background-position: center;
+  background-size: cover;
+   text-align: center;
+    color: rgb(248, 244, 248);
+}
+
+#content h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+#content p{
+    font-size: 20px;
+    text-align: center;
+}
+#boxes {
+    margin-top: 20px;
+}
+#boxes .box{
+    float:left;
+    width:30%;
+    padding:10px;
+    text-align: center;
+}
+#boxes .box img{
+    width:90px;
+}
+
+aside#sidebar{
+    float:right;
+    width: 500px;
+    text-align: justify;
+
+}
+ 
+footer{
+    padding:20px;
+    margin-top: 300px;
+    color: rgb(67, 212, 86);
+    background-color: rgb(56, 149, 224);
+    text-align: center;
+}
+
+form {
+    height: 290px;
+    width: 1366px;
+    background-color: rgb(225, 218, 233);
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+}
+.images{
+    display: flex;
+    margin: 10px;
+
+}
+img{
+    margin: 10px;
+    border: 2px solid yellow;
+}
+.title{
+    display: flex;
+    
+}
+#one{
+    padding: 10px;
+    margin-left: 20px;
+}
+#two{
+    padding: 10px;
+    margin-left: 100px;
+}
+#three{
+    padding: 10px;
+    margin-left: 110px;
+}
+#four{
+    padding: 10px;
+    margin-left: 130px;
+}
+#five{
+    padding: 10px;
+    margin-left: 130px;
+}
